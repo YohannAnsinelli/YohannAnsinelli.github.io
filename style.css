@@ -37,6 +37,8 @@
 
 .button1{
 	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(cybersecurite.jpg);
+	background-size: cover;
 }
 
 .button1:hover{
@@ -46,6 +48,8 @@
 
 .button2{
 	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(présenterinternet.jpg);
+	background-size: cover;
 }
 
 .button2:hover{
