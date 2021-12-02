@@ -27,7 +27,7 @@
 }
 
 .btn:hover{
-	color: white;
+	color: black;
 }
 
 .btn::before{
