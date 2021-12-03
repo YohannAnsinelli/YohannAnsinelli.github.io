@@ -63,3 +63,10 @@
 	box-shadow: 0 30px 60px rgba(0,0,0,.5);
 	transform: scale(.95);
 }
+
+.ligne{
+	weight:700px;
+	height:200px;
+	top:100px;
+	left:100px;
+}
