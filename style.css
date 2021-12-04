@@ -41,6 +41,8 @@
 	border-radius:5px;
 	transition-duration:.60s;
 	font-weight:900;
+	top:-144px;
+	left:180px;
 	
 }
 
@@ -49,8 +51,6 @@
 	background:url(cybersecurite.jpg);
 	background-size: cover;
 	color:white;
-	top:-144px;
-	left:-18px;
 	
 }
 
@@ -64,8 +64,6 @@
 	background:url(cable.jpg);
 	background-size: cover;
 	color:black;
-	top:-144px;
-	left:18px;
 	
 }
 
@@ -78,8 +76,6 @@
 	box-shadow: 0 30px 60px rgba(0,0,0,.5);
 	background:url(présenterinternet.jpg);
 	background-size: cover;
-	top:-144px;
-	left:390px;
 	color:black;
 }
 
