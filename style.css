@@ -59,6 +59,21 @@
 	transform: scale(.95);
 }
 
+.button3{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(cable.jpg);
+	background-size: cover;
+	color:black;
+	top:-144px;
+	left:18px;
+	
+}
+
+.button3:hover{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	transform: scale(.95);
+}
+
 .button2{
 	box-shadow: 0 30px 60px rgba(0,0,0,.5);
 	background:url(présenterinternet.jpg);
@@ -74,20 +89,6 @@
 	transform: scale(.95);
 }
 
-.button3{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	background:url(cable.jpg);
-	background-size: cover;
-	color:black;
-	top:-144px;
-	left:18px;
-	
-}
-
-.button3:hover{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	transform: scale(.95);
-}
 
 .ligne{
 	width:903px;
