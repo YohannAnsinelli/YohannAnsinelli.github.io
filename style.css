@@ -64,12 +64,27 @@
 	background:url(présenterinternet.jpg);
 	background-size: cover;
 	top:-144px;
-	left:212px;
+	left:244px;
 	font-weight:900;
 	color:black;
 }
 
 .button2:hover{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	transform: scale(.95);
+}
+
+.button3{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(cybersecurite.jpg);
+	background-size: cover;
+	color:white;
+	top:-144px;
+	left:212px;
+	
+}
+
+.button3:hover{
 	box-shadow: 0 30px 60px rgba(0,0,0,.5);
 	transform: scale(.95);
 }
