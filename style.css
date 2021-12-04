@@ -27,7 +27,7 @@
 	border: 3px solid #555;
 	position:relative;
 	top:323px;
-	left:195px;
+	left:83px;
 }
 
 .button{
@@ -42,7 +42,7 @@
 	transition-duration:.60s;
 	font-weight:900;
 	top:-392px;
-	left:320px;
+	left:211px;
 	
 }
 
@@ -90,7 +90,7 @@
 	height:200px;
 	position:relative;
 	top:-342px;
-	left:198px;
+	left:118px;
 }
 
 .annee1{
@@ -105,7 +105,7 @@
 	height:200px;
 	position:relative;
 	top:-368px;
-	left:729px;
+	left:645px;
 }
 
 .lignea{
@@ -113,18 +113,18 @@
 	height:200px;
 	position:relative;
 	top:-94px;
-	left:100px;
+	left:18px;
 }
 
 .projet{
 	top:-236px;
-	left:466px;
+	left:384px;
 	position:relative;
 }
 
 .projetc{
 	top:-221px;
-	left:86px;
+	left:4px;
 	width:290px;
 	height:200px;
 	position:relative;
