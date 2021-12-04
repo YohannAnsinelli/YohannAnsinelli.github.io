@@ -98,10 +98,18 @@
 }
 
 .lignen{
-	width:200px;
+	width:360px;
 	height:200px;
 	position:relative;
-	top:100px;
+	top:-94px;
+	left:100px;
+}
+
+.lignea{
+	width:360px;
+	height:200px;
+	position:relative;
+	top:-94px;
 	left:100px;
 }
 
