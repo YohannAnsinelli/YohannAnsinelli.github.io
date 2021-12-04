@@ -26,7 +26,7 @@
 	height: 200px;
 	border: 3px solid #555;
 	position:relative;
-	top:564px;
+	top:323px;
 	left:195px;
 }
 
@@ -41,7 +41,7 @@
 	border-radius:5px;
 	transition-duration:.60s;
 	font-weight:900;
-	top:-144px;
+	top:-392px;
 	left:320px;
 	
 }
@@ -89,12 +89,14 @@
 	width:903px;
 	height:200px;
 	position:relative;
-	top:-133px;
+	top:-342px;
 	left:198px;
 }
 
 .annee1{
 	color:#0D25AB;
+	top:-300px;
+	left:100px;
 }
 
 .lignen{
@@ -120,9 +122,9 @@
 }
 
 .projetc{
-	top:100px;
-	left:100px;
-	width:200px;
+	top:-221px;
+	left:86px;
+	width:290px;
 	height:200px;
 	position:relative;
 }
