@@ -1,0 +1,22 @@
+.corp{
+	margin: 0px;
+	padding: 0px;
+	background-color: #009BFF;
+	position:absolute;
+	font-weight: bold;
+	top:445px;
+	left:300px;
+}
+
+.form{
+	background-color: #009BFF;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+h1{
+	font-size:20px;
+}
+
+	
+
