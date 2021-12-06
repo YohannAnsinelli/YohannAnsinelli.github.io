@@ -2,16 +2,16 @@
 	margin: 0px;
 	padding: 0px;
 	background-color: #009BFF;
-	position:absolute;
 	font-weight: bold;
 	top:435px;
 	left:149px;
+	width:395px;
 }
 
 .form{
 	background-color: #009BFF;
 	padding: 30px;
-	border-radius: 10px;
+	border-radius: 10%;
 }
 
 h1{
@@ -21,4 +21,23 @@ h1{
 	
 .textlink{
 	color:black;
+}
+
+.separation{
+	width: 100%;
+	height: 1px;
+	background-color: white;
+}
+
+
+.groupe{
+	display:flex;
+}
+
+.mail{
+	width:400px;
+	height:400px;
+	top:-200px;
+	left: 50px;
+	margin: -200px 0px 0px 50px;
 }
