@@ -16,6 +16,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", samanata}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <body>
+  
+<div id="preloader"></div>  
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -113,5 +115,15 @@ function myFunction() {
 }
 </script>
 
+  <script>
+		
+	var loader = document.getElementById("preloader");
+	
+	window.addEventListener("load", function(){
+		loader.style.display = "none";
+	})
+	</script>
+  
+  
 </body>
 </html>
