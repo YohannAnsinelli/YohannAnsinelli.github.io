@@ -1,0 +1,235 @@
+.ronde {
+	border-radius: 50%;
+	width: 150px;
+	height: 200px;
+	border: 3px solid #555;
+}
+
+.ronde1 {
+	width: 293px;
+	height: 146px;
+}
+
+.ronde2 {
+	width: 200px;
+	height: 59px
+}
+
+.ronde3 {
+	width: 366px;
+	height: 366px;
+	margin: 50px 0px 0px -100px;
+}
+
+.ronde4{
+	border-radius: 50%;
+	width: 150px;
+	height: 200px;
+	border: 3px solid #555;
+	position:relative;
+	top:323px;
+	left:83px;
+}
+
+.button{
+	padding:0;
+	margin:0;
+	width:250px;
+	height:204px;
+	text-align: center;
+	position:relative;
+	border:3px solid #555;
+	border-radius:5px;
+	transition-duration:.60s;
+	font-weight:900;
+	top:-392px;
+	left:211px;
+	
+}
+
+.button1{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(cybersecurite.jpg);
+	background-size: cover;
+	color:white;
+	
+}
+
+.button1:hover{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	transform: scale(.95);
+}
+
+.button3{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(cable.jpg);
+	background-size: cover;
+	color:black;
+	
+}
+
+.button3:hover{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	transform: scale(.95);
+}
+
+.button2{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	background:url(présenterinternet.jpg);
+	background-size: cover;
+	color:black;
+}
+
+.button2:hover{
+	box-shadow: 0 30px 60px rgba(0,0,0,.5);
+	transform: scale(.95);
+}
+
+
+.ligne{
+	width:903px;
+	height:200px;
+	position:relative;
+	top:-342px;
+	left:118px;
+}
+
+.annee1{
+	color:#0D25AB;
+	top:-211px;
+	left:-34px;
+	position:relative;
+}
+
+.lignen{
+	width:360px;
+	height:200px;
+	position:relative;
+	top:-368px;
+	left:645px;
+}
+
+.lignea{
+	width:360px;
+	height:200px;
+	position:relative;
+	top:-94px;
+	left:18px;
+}
+
+.projet{
+	top:-236px;
+	left:384px;
+	position:relative;
+}
+
+.projetc{
+	top:-221px;
+	left:4px;
+	width:290px;
+	height:200px;
+	position:relative;
+}
+
+.longtrait{
+	top:630px;
+	left:-1200px;
+	position:relative;
+	width:2000px;
+	height:200px;
+}
+
+.textlink{
+	color:black;
+}
+
+
+.wrapper{
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0px 0px -250px;
+}
+.wrapper .card{
+  background: #fff;
+  width: calc(33% - 20px);
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper .card .circle{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: default;
+}
+.card .circle .box,
+.card .circle .box span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.card .circle .box{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  transition: all 0.2s;
+}
+.card .circle:hover .box{
+  transform: translate(-50%, -50%) scale(0.91);
+}
+.card .circle .box span,
+.wrapper .card .text{
+  background: -webkit-linear-gradient(left, #0DDBEE, #84AEAE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.circle .box span{
+  font-size: 38px;
+  font-family: sans-serif;
+  font-weight: 600;
+  transform: translate(-45%, -45%);
+  transition: all 0.1s;
+}
+.card .circle:hover .box span{
+  transform: translate(-45%, -45%) scale(1.09);
+}
+.card .text{
+  font-size: 20px;
+  font-weight: 600;
+}
+@media(max-width: 753px){
+  .wrapper{
+    max-width: 700px;
+  }
+  .wrapper .card{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 505px){
+  .wrapper{
+    max-width: 500px;
+  }
+  .wrapper .card{
+    width: 100%;
+  }
+}
+
+#preloader{
+	background: #000 url(loaderr.gif) no-repeat center center;
+	background-size: 5%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
