@@ -66,24 +66,45 @@ Au cours de la réalisation d'une SAÉ et des activités qu'elle implique, l'él
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <img class="lignea" src="traitn.png" alt="traits"/><h1 class="projet"><strong>MES PROJETS</strong></h1><img class="lignen" src="traitn.png" alt="traits"/>
-      <img class="projetc" src="projetc.jpg" alt="projetc"/>
-      <h2 class="annee1"><strong>1ère Année</strong></h2><img class="ligne" src="ligneb2.png" alt="trait"/>
-      <a href=""><button class="button button1"><strong>SAE11<br />
-                                Sensibilisation Hygiène<br />
-                            informatique et Cybersécurité</strong></button></a>
-      <a href=""><button class="button button3"><strong>SAE13<br />
-                                  Découvrir un dispositif<br />
-                                     de Transmission</strong></button></a>
-      <a href=""><button class="button button2"><strong>SAE14<br />
-                                              Se Présenter<br />
-                                              sur Internet</strong></button></a>     
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class="fa w3-padding-64 w3-text-red w3-margin-right"></i>
-      <img class="ronde4" src="yohann.jpeg" alt="yohann" />
-      <img class="longtrait" src="traitn.png" alt="traitl"/>
+      <h1 class="projet"><strong>MES PROJETS</strong></h1><pre></pre>
+      <pre></pre>
+      <pre></pre>
+      <div class="wrapper">
+         <div class="text">
+            SAE11
+         </div>
+         <p>
+            Sensibilisation Hygiène<br />
+            Informatique et Cybersécurité
+         </p>
+         <div class="btns">
+            <a href="#">CLIQUER</a>
+         </div>
+      </div>
+      <div class="wrapper1">
+         <div class="text">
+            SAE13
+         </div>
+         <p>
+            Découvrir un dispositif<br />
+            de Transmission
+         </p>
+         <div class="btns">
+            <a href="#">CLIQUER</a>
+         </div>
+      </div>
+      <div class="wrapper2">
+         <div class="text">
+            SAE14
+         </div>
+         <p>
+            Se Présenter<br />
+            sur Internet
+         </p>
+         <div class="btns">
+            <a href="#">CLIQUER</a>
+         </div>
+      </div>
     </div>
   </div>
 </div>
@@ -120,6 +141,24 @@ function myFunction() {
 		loader.style.display = "none";
 	})
 	</script>
+	
+  <script>
+         const buttons = document.querySelectorAll("a");
+         buttons.forEach((button) => {
+           button.onclick = function(e){
+             let x = e.clientX - e.target.offsetLeft;
+             let y = e.clientY - e.target.offsetTop;
+             let ripple = document.createElement("span");
+             ripple.style.left = `${x}px`;
+             ripple.style.top = `${y}px`;
+             this.appendChild(ripple);
+             setTimeout(function(){
+               ripple.remove();
+             }, 600); // 1second = 1000ms
+           }
+         });
+         
+      </script>
   
   
 </body>

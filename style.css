@@ -18,6 +18,7 @@
 .ronde3 {
 	width: 305px;
 	height: 310px;
+	margin: -100px 0px 0px 30px;
 }
 
 .ronde4{
@@ -30,59 +31,124 @@
 	left:83px;
 }
 
-.button{
-	padding:0;
-	margin:0;
-	width:250px;
-	height:204px;
-	text-align: center;
-	position:relative;
-	border:3px solid #555;
-	border-radius:5px;
-	transition-duration:.60s;
-	font-weight:900;
-	top:-392px;
-	left:211px;
-	
+.wrapper{
+  background: #fff;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+  width: 400px;
+  height:250px;
+  text-align: center;
+  line-height: 300%;
+}
+.wrapper .text{
+  font-size: 35px;
+  font-weight: 600;
+}
+.wrapper p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.wrapper .btns{
+  display: flex;
+  margin: 30px 0 20px 0;
+}
+.btns a{
+  position: relative;
+  margin: 0 60px;
+  height: 60px;
+  width: 200px;
+  display: block;
+  line-height: 60px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  align-items:center;
+  justify-content:center;
+}
+.btns a:first-child{
+  background: linear-gradient(-90deg, #f5ce62, #e85a19);
+}
+.btns a:last-child{
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+.btns a > span{
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: ripples 0.6s linear infinite;
+}
+@keyframes ripples {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
 }
 
-.button1{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	background:url(cybersecurite.jpg);
-	background-size: cover;
-	color:white;
-	
+.wrapper1{
+  background: #fff;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+  width: 400px;
+  height:250px;
+  text-align: center;
+  line-height: 300%;
+  margin: -250px 0px 0px 550px;
+}
+.wrapper1 .text{
+  font-size: 35px;
+  font-weight: 600;
+}
+.wrapper1 p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.wrapper1 .btns{
+  display: flex;
+  margin: 30px 0 20px 0;
 }
 
-.button1:hover{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	transform: scale(.95);
+.wrapper2{
+  background: #fff;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+  width: 400px;
+  height:250px;
+  text-align: center;
+  line-height: 300%;
+  margin: 100px 0px 0px 0px;
+}
+.wrapper2 .text{
+  font-size: 35px;
+  font-weight: 600;
+}
+.wrapper2 p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.wrapper2 .btns{
+  display: flex;
+  margin: 30px 0 20px 0;
 }
 
-.button3{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	background:url(cable.jpg);
-	background-size: cover;
-	color:black;
-	
-}
 
-.button3:hover{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	transform: scale(.95);
-}
-
-.button2{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	background:url(présenterinternet.jpg);
-	background-size: cover;
-	color:black;
-}
-
-.button2:hover{
-	box-shadow: 0 30px 60px rgba(0,0,0,.5);
-	transform: scale(.95);
-}
 
 
 .ligne{
@@ -116,11 +182,6 @@
 	left:18px;
 }
 
-.projet{
-	top:-236px;
-	left:384px;
-	position:relative;
-}
 
 .projetc{
 	top:-221px;
@@ -130,12 +191,9 @@
 	position:relative;
 }
 
-.longtrait{
-	top:630px;
-	left:-1200px;
-	position:relative;
-	width:2000px;
-	height:200px;
+.projet{
+	text-align:center;
+	margin: 0px 0px 0px 300px;
 }
 
 .textlink{
