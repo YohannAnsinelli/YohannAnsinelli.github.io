@@ -50,3 +50,61 @@ h1{
 	position: fixed;
 	z-index: 100;
 }
+
+.wrapper4{
+  height: 50px;
+  width: 210px;
+  position: relative;
+  border-radius: 10px;
+  cursor: default;
+  animation: animate 1.5s linear infinite;
+  margin: 0px 0px 0px 1675px
+}
+.wrapper4 .display,
+.wrapper4 span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper4 .display{
+  z-index: 999;
+  height: 35px;
+  width: 200px;
+  background: #1b1b1b;
+  border-radius: 6px;
+  text-align: center;
+}
+.display #time{
+  line-height: 35px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+.wrapper4 span{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: inherit;
+}
+.wrapper4 span:first-child{
+  filter: blur(7px);
+}
+.wrapper4 span:last-child{
+  filter: blur(20px);
+}
+
+.all{
+	width:50px;
+	height:50px;
+}
