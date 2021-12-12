@@ -30,6 +30,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", samanata}
     <a href="projet.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projets</a>
     <a href="" class="w3-bar-item w3-button w3-padding-large w3-white">Compétences</a>
     <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+    <div class="wrapper4">
+		<div class="display">
+			<div id="time"></div>
+		</div>
+		<span></span>
+		<span></span>
+	</div>
   </div>
 
   <!-- Navbar on small screens -->
@@ -181,7 +188,30 @@ function myFunction() {
         value: 0.01
       });
     </script>
-  
+ <script>
+         setInterval(()=>{
+           const time = document.querySelector(".display #time");
+           let date = new Date();
+           let hours = date.getHours();
+           let minutes = date.getMinutes();
+           let seconds = date.getSeconds();
+           let day_night = "AM";
+           if(hours > 12){
+             day_night = "PM";
+             hours = hours - 12;
+           }
+           if(seconds < 10){
+             seconds = "0" + seconds;
+           }
+           if(minutes < 10){
+             minutes = "0" + minutes;
+           }
+           if(hours < 10){
+             hours = "0" + hours;
+           }
+           time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+         });
+      </script>
   
 </body>
 </html>
